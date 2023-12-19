@@ -1,0 +1,106 @@
+.box-form{
+    display: inline-block;
+    width: 400px;
+    height: 370px;
+    border-radius: 12px;
+    border: 3px groove antiquewhite;
+}
+form{
+    display: flex;
+    justify-content: center;
+    position: relative;
+    top: 50px;
+  }
+.user-form{
+    font-size: 16px;
+    border: 1px solid black;
+    background: white;
+    border-radius: 8px;
+    width: 320px;
+    height: 34px;
+    text-align: center;
+    display: flex;
+    margin: auto;
+  }
+
+h3{
+    font-size: 30px;
+    display: flex;
+    justify-content: center;
+    margin-bottom: 40px;
+    margin-top: 40px;
+    font-family: cursive;
+}
+.send-form{
+    display: flex;
+    margin: auto;
+    width: 320px;
+    height: 34px;
+    background-color: #678d8d;
+    border: none;
+    border-radius: 8px;
+    justify-content: space-around;
+    cursor: pointer;
+  }
+  .forget-form{
+    display: flex;
+    margin: auto;
+    width: 150px;
+    height: 19px;
+    border: none;
+    color: black;
+    text-decoration: none;
+    justify-content: space-around;
+  }
+  .sign-in{
+    text-decoration: none;
+    display: flex;
+    width: fit-content;
+    color: #fff;
+    background-color: #004b32;
+    padding: 5px;
+    border-radius: 6px;
+    margin: auto;
+    justify-content: center;
+  }
+  .sign-box-form{
+    display: inline-block;
+    width: 400px;
+    height: 480px;
+    border-radius: 12px;
+    border: 3px groove antiquewhite;
+  }
+  .sign-user-form{
+    font-size: 16px;
+    border: 1px solid black;
+    background: white;
+    border-radius: 8px;
+    width: 171px;
+    height: 34px;
+    text-align: center;
+  }
+.name-user{
+  text-align: center;
+}
+.sign-user-form-data{
+    font-size: 16px;
+    border: 1px solid black;
+    background: white;
+    border-radius: 8px;
+    width: 350px;
+    height: 34px;
+    text-align: center;
+    display: flex;
+    margin:10px auto;
+}
+.sign-send-form{
+  display: flex;
+    margin: 30px auto;
+    width: 350px;
+    height: 34px;
+    background-color: #678d8d;
+    border: none;
+    border-radius: 8px;
+    justify-content: space-around;
+    cursor: pointer;
+}
